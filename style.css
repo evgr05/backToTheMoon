@@ -1,6 +1,9 @@
 body{
     padding: 0;
     margin: 0;
+    align-items: center;
+    justify-content: center;
+    
 
     
 }
@@ -100,11 +103,15 @@ color: #C4C4C4;;
 
 header .button1{
     position: relative;
-    display: block;
+    display: inline-block;
 width: 240px;
 height: 50px;
 left: 100px;
 border-radius: 30px 30px;
+text-align: center;
+
+
+
 
 
 background: #FFCB06;
@@ -118,6 +125,8 @@ header .button1 a{
    transform: translate(0, -50%);
    color: #222222;
    text-decoration: none;
+   top: 50%;
+   padding: 70px 0;
    
 }
 
@@ -130,6 +139,7 @@ padding-left: 187px;
 padding-right: 258px;
 padding-top: 84px;
 padding-bottom: 81px;
+text-align: center;
 }
 
 .advantage .bl1{
@@ -239,17 +249,17 @@ width: 170px;
 }
 
 .content{
-    display: flexbox;
+    display: flex;
     flex-direction: row;
     padding-top: 89px;
     padding-bottom: 89px;
     padding-left: 182px;
     padding-right: 202px;
+    margin: 0 0 auto auto;
 }
 .map{
-    display: flex;
     width: 440px;
-height: 346px;
+  height: 346px;
 }
 .text{
     display: flexbox;
@@ -316,6 +326,8 @@ background: url(logo.png);
     padding-top: 50px;
     padding-bottom: 80px;
     color: #ffffff;
+   
+    
   
     background-color: #131313;
   }
@@ -330,11 +342,13 @@ background: url(logo.png);
     flex-direction: column;
     width: 180px;
     margin-right: 100px;
+    margin: auto auto auto auto;
   }
   
   .footer-columns-container .right-column {
     width: 720px;
     padding-top: 35px;
+    margin: auto auto auto auto;
   }
   
   .logo-container {
@@ -381,6 +395,7 @@ background: url(logo.png);
     text-decoration: none;
   
     border-bottom: 1px solid #555555;
+    
   }
   
   .footer-submenu {
@@ -407,4 +422,8 @@ background: url(logo.png);
   
       .footer-nav a:active {
         color: #ccc;
+      }
+
+      .text-container{
+        margin: auto auto auto auto;
       }
